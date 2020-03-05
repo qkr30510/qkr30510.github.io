@@ -1,6 +1,6 @@
 body.light {
   background-color: $light-background-color;
-  text-shadow: $light-text-shadow;
+  
 
   // home
   .home-header {
@@ -28,8 +28,7 @@ body.light {
     .item {
       border: 1px solid $light-category-border-color;
       background-color: $light-category-item-color;
-      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+      
       a {
         color: $light-category-text-color;
       }
@@ -50,9 +49,7 @@ body.light {
     p {
       color: $middle-gray;
     }
-    &:hover {
-      text-shadow: $light-hover-text-shadow;
-    }
+    
   }
 
   .footer {

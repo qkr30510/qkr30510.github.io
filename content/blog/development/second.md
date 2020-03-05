@@ -13,11 +13,12 @@ draft: false
 ## 개발 환경
 * 윈도우 사용
 * 에디터: vs코드 
-* 개츠비 스타터: [한재엽님 개츠비](https://github.com/JaeYeopHan/gatsby-starter-bee/){: target="_blank"}
+* 개츠비 스타터: [한재엽님 개츠비](https://github.com/JaeYeopHan/gatsby-starter-bee/)
 
 ## 개츠비 스타터로 블로그 시작하기
 
 1. 블로그가 담길 새로운 파일을 만들어 준다.
+
 2. 터미널로 새로운 파일 위치로 들어가서 개츠비 cil을 만들어준다.
 ```
 npm install -g gatsby-cli 
@@ -41,7 +42,14 @@ local host를 확인해보자.
 변경된 내역이 보일 것이다.
 
 ## 깃이랑 연결하기.
-1.  [깃허브 가입 하기](https://github.com/){: target="_blank"}
 
+1.  [깃허브 가입 하기](https://github.com)
 
+2. Repositories에서 new를 클릭
+![레포리터리 만들기](./images/first-blog/new-repo.png)
 
+3. Repository name에 깃 아이디 + .github.io 로 적어주기 (깃 대표 블로그로 만들 경우. netlify로 진행할시에는 아무거나 적어도 상관없음.)
+![블로그 만들기](./images/first-blog/new-blog.png)
+
+4. 창에 뜨는 대로 cmd에 입력하여(터미널엔 my-blog-starter 가 들어가 있어야한다.) 깃이랑 해당 폴더랑 연결해주기 
+![cmd에 입력하기](./images/first-blog/blog-complete.png)
