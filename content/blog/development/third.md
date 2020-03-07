@@ -1,8 +1,21 @@
 ---
-title: 'Third Post'
-date: 2019-2-1 16:21:13
-category: 'development'
+title: '개츠비 블로그 오류 in 윈도우'
+date: 2020-3-6 16:21:13
+category: 'git blog'
 draft: false
 ---
 
-Third Post
+앞서 얘기했던 것처럼 나는 이 블로그를 만들면서 몇가지의 오류에 직면하였는데,
+그 오류들은 스스로 없어지기도 했었고 
+고생을 하기도 했었다. 
+오류는 크게 3가지정도로 나눌수 있을꺼 같다.
+
+### 오류의 종류
+
+1. 개츠비 cil 설치 실패
+2. sharp not found로 인한 npm 미 실행
+3. 현재진행중인 GraphQL query 오류
+
+
+
+

@@ -1,7 +1,7 @@
 ---
 title: '블로그 시작하기'
 date: 2020-3-4 16:21:13
-category: 'development'
+category: 'git blog'
 draft: false
 ---
 
@@ -53,3 +53,12 @@ local host를 확인해보자.
 
 4. 창에 뜨는 대로 cmd에 입력하여(터미널엔 my-blog-starter 가 들어가 있어야한다.) 깃이랑 해당 폴더랑 연결해주기 
 ![cmd에 입력하기](./images/first-blog/blog-complete.png)
+
+## netlify랑 연결하기.
+
+> netlify란, 정적 페이지를 무료로 빌드 및 배포할 수 있게 도와주는 사이트이다. 
+최근엔 개츠비와 netlify를 중심으로 인기를 끌고 있다.
+
+1. [netlify 가입하기](https://www.netlify.com/)
+
+2. new site from Git 클릭

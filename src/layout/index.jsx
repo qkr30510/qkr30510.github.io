@@ -19,7 +19,7 @@ export const Layout = ({ location, title, children }) => {
           marginLeft: `auto`,
           marginRight: `auto`,
           marginTop: '5%',
-          maxWidth: '40%',
+          maxWidth: '50%',
         }}
       >
         <ThemeSwitch />
