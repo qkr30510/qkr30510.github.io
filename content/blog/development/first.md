@@ -1,7 +1,7 @@
 ---
 title: '블로그의 첫 시작'
 date: 2020-3-4 16:21:13
-category: 'development'
+category: 'etc'
 draft: false
 ---
 
