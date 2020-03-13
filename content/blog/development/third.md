@@ -45,7 +45,8 @@ draft: false
 
 ###  3. GraphQL query 오류
 
-
+솔직히 말하자면, 난 아직 이 오류를 해결하지 못했다.
+맨처음 로컬 호스트오류로 접속했을때, 해당 오류가 떠서 ```Have the same issue. Deleting fragments.js - helped.``` 조언에 따라 해당 파일을 지웠고, 로컬에서는 정상적으로 호출이 되어 문제없이 해결된줄 알았다.
 
 
 
