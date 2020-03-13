@@ -242,4 +242,7 @@ Gatsby 내부 GraphQL 노드로 추가해 주는 gatsby-source-contentful 플러
 아무튼 그럼 캐시의 문제거나 한번 설치 되었기 때문에 GraphQL 노드에 저장되어있을꺼 같다.<br>
 한번 캐시를 지워봐야겠다. 
 
+* 캐시 지워봤는데 안됨 ㅠㅠ 
+
+
 
