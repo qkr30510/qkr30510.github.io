@@ -55,7 +55,7 @@ draft: false
 <pre style="text-align:right;font-style:italic">(로컬호스트화면에 뜬 오류 화면)</pre>
 
 하지만, 이것은 내 착각이였다.
-깃에 푸시를 하고 netlift를 확인하니 오류가 떠있었고 오류의 내용은 로컬호스트에 있었던 내용과 동일한 ```Unknown type "ContentfulFluid"``` (그 외의 다른 오류도 있다.) 가 있었다. 
+깃에 푸시를 하고 netlift를 확인하니 오류가 떠있었고 오류의 내용은 로컬호스트에 있었던 내용과 동일한 ```Unknown type "ContentfulFluid"``` <br>그 외의 다른 오류도 있다.) 가 있었다. 
 
 ```
 7:08:36 PM: Build ready to start
@@ -244,5 +244,11 @@ Gatsby 내부 GraphQL 노드로 추가해 주는 gatsby-source-contentful 플러
 
 * 캐시 지워봤는데 안됨 ㅠㅠ 
 
+## 아휴 드디어 해결되었다!!!.
+
+의외인곳에서 해결되었는데, package.json에 gatsby-source-contentful 버전이 기록되어있어서 그런거였다 ㅜㅜ.<br>
+그곳에 적혀져있는건 알았는데.. 그곳에 써져있어서 안되는건지는 몰랐다...<br>
+와.. 진짜.. <br>
+덕분에 여러가지 배우긴 했다만 너무 허탈하네.. 이제 누군가가 정말 볼수있으니 외적인것 먼저 수정부터 하고 react도 공부하면서 병행해야겠다.
 
 
