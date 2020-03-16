@@ -51,7 +51,7 @@ draft: false
 
 
 
-![로컬호스트화면에 뜬 오류 화면](/images/third-blog/localhost.png)
+![로컬호스트화면에 뜬 오류 화면](/images/third-blog/localhost.png){: width="100%" height="100%"}
 <pre style="text-align:right;font-style:italic">(로컬호스트화면에 뜬 오류 화면)</pre>
 
 하지만, 이것은 내 착각이였다.
