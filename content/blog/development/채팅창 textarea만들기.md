@@ -1,7 +1,7 @@
 ---
-title: '프론트앤드면접질문PART1'
-date: 2020-04-08 14:10:13
-category: 'etc'
+title: '채팅창 textarea만들기'
+date: 2020-04-09 14:10:13
+category: 'react'
 draft: false
 ---
 
