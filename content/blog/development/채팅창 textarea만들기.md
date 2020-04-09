@@ -58,7 +58,7 @@ const onKeyPress = e => {
 ```javascript
 const onKeyPress = e => {
   if (e.key === 'Enter') {
-    if (e.shifKey) {
+    if (e.key === 'Enter' && e.shiftKey) {
       return
     }
     e.preventDefault()
