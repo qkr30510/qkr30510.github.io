@@ -123,11 +123,11 @@ class App extends Component {
 
 컴포넌트에서 필요한 정적 데이터, 변하지 않는 값으로 사용한다. 컴포넌트 내에서 변경해선 안된다.
 
-```javascrpit
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import logo from './logo.svg';
-import './App.css';
+```javascript
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import logo from './logo.svg'
+import './App.css'
 
 class App extends Component {
   render() {
@@ -138,21 +138,25 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          <div>이름은 {this.props.name} 이고, 나이는 {this.props.age} 입니다.</div>
+          <div>
+            이름은 {this.props.name} 이고, 나이는 {this.props.age} 입니다.
+          </div>
         </p>
       </div>
-    );
+    )
   }
 }
 
 App.PropTypes = {
-  name : PropTypes.string,
-  age : PropTypes.number.isRequired,
-};
-App.defaultProps = {
-  name : '정프로',
+  name: PropTypes.string,
+  age: PropTypes.number.isRequired,
 }
-export default App;
-
-
+App.defaultProps = {
+  name: '정프로',
+}
+export default App
 ```
+
+<br>
+<a class="source_link" href="https://jeong-pro.tistory.com/77" target="_blank">출처</a>   
+<br>
