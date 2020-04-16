@@ -24,8 +24,8 @@ dom의 상태를 메모리에 저장하고 변경 전과 변경 후의 상태를
 2.  이전 Virtual DOM에 있던 내용과 현재의 내용을 비교합니다.
 3.  바뀐 부분만 실제 DOM에 적용이 됩니다.
 
-출처: https://velog.io/@kimtaeeeny/DOM%EC%9D%B4%EB%9E%80-FE-study3-9xk56ahmsu
-출처: https://jw910911.tistory.com/41
+<a class="source_link" href="https://velog.io/@kimtaeeeny/DOM%EC%9D%B4%EB%9E%80-FE-study3-9xk56ahmsu" target="_blank">출처</a>
+<a class="source_link" href="https://jw910911.tistory.com/41" target="_blank">출처</a>
 
 ### 버츄얼돔은 왜 좋은가. 어떻게 동작하는가. JQUERY의 돔 직접참조에 비해서 무엇이 개선되었는가.
 
@@ -47,7 +47,7 @@ virtual Dom은 수정될 내용을 처리하여, 리얼돔에 덮어씌운다. �
    1. 새로운 엘레먼트가 추가되었을 때,
       Key 속성으로 기존의 엘레먼트와 새로운 엘레먼트를 비교한다.
 
-출처: http://guswnsxodlf.github.io/react-diff-algorithm
+<a class="source_link" href="http://guswnsxodlf.github.io/react-diff-algorithm" target="_blank">출처</a>
 
 ### 컴포넌트 설계가 갖는 장점은 무엇인가. 컴포넌트란 무엇인가. 컴포넌트 설계는 어떻게 해야 하는가. 컴포넌트의 리랜더링은 언제 이루어지는가.
 
@@ -58,14 +58,16 @@ virtual Dom은 수정될 내용을 처리하여, 리얼돔에 덮어씌운다. �
 - 기능을 단위별로 캡슐화하는 리액트의 기본 단위다.
 - 사용자가 보는 뷰는 이 컴포넌트들을 조합하여 만든다.
 - 자바스크립트 함수 혹은 클래스이며 속성들을 이력받아들이며 내부적으로 각자의 상태를 관리한다.
-  출처: https://kimyhcj.tistory.com/305 [기억과 기록]
+
+<a class="source_link" href="https://kimyhcj.tistory.com/305" target="_blank">출처</a>
 
 장점: 코드를 분해하고 재사용하기에 용이하다.
 
 설계 방법: 1) UI를 컴포넌트 계층 구조로 나누기 -> 2) React로 정적인 버전 만들기 -> 3) UI state에 대한 최소한의 표현 찾아내기 -> 4) state가 어디에 있어야 할 지 찾기 -> 5) 역방향 데이터 흐름 추가하기
 
 컴포넌트의 리랜더링: 1. props가 변경되었을 때, 2. state가 변경되었을 때, 3. forceupdate가실행되었을 때, 4부모 컴포넌트가 렌더링 되엇을 때
-출처:https://medium.com/vingle-tech-blog/react-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f255d6569849
+
+<a class="source_link" href="https://medium.com/vingle-tech-blog/react-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f255d6569849" target="_blank">출처</a>
 
 ### 리액트와 뷰의 차이점과 공통점은 무엇인가.
 
@@ -83,4 +85,5 @@ JSX 기반 컴포넌트 구문
 템플릿 방식으로 관리하는 Vue와는 달리, React는 JSX 코드로 컴포넌트를 작성하고 컴포넌트의 상태(State)를 변화시키지 않고 관리합니다. 변화가 일어나면 실제 브라우저의 DOM에 새로운 것을 적용하는 것이 아니라, 자바스크립트로 이루어진 Virtual DOM에 렌더링을 하고 기존의 DOM과 비교하여 변화가 일어난 곳만 업데이트 합니다.
 
 템플릿은 재구조화가 어렵고, 에러에 취약하지만, React는 상태를 고유 속성대로 유지하기 때문에 대규모 프로젝트에서도 관리가 수월하고 테스트에도 적합합니다.
-출처: http://library.gabia.com/contents/infrahosting/8284
+
+<a class="source_link" href="http://library.gabia.com/contents/infrahosting/8284" target="_blank">출처</a>
