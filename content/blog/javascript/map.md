@@ -1,7 +1,7 @@
 ---
 title: map
 date: 2020-04-29 16:04:60
-category: web
+category: javascript
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Array
 date: 2020-04-29 17:04:51
-category: web
+category: javascript
 draft: false
 ---
 
