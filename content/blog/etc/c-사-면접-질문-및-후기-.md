@@ -13,10 +13,10 @@ draft: false
 
 1. 쿠키와 섹션의 차이
 
-- 공통점: 웹 통신간 유지하려는 정보(ex. 로그인 정보등)를 저장하기 위한ㄴ 사용하는것
-- 차이점: 저장위치, 저장형식, 용량제한, 만료시점 등
-  - 쿠키: 개인 PC 저장됨.
-  - 세션: 접속중인 웹 서버에 저장됨.
+   - 공통점: 웹 통신간 유지하려는 정보(ex. 로그인 정보등)를 저장하기 위해 사용하는것
+   - 차이점: 저장위치, 저장형식, 용량제한, 만료시점 등
+     - 쿠키: 개인 PC 저장됨.
+     - 세션: 접속중인 웹 서버에 저장됨.
 
 2. useEffect와 useState는 무엇인가
 
@@ -80,7 +80,7 @@ draft: false
     리액트에서는 대표적으로 **Container+Presenter** 등이 있다.
 11. Container+Presenter
 
-    - Container 컴포넌트는 논리 담당, logic과 api를 갖고 있고, Presenter 컴포넌트는 UI 담당, 사진 등을 갖고있다. - 폴더 구조 + Routes/Home/index.js + Routes/Home/HomePresenter.js + Routes/Home/HomeContainer.js - 각 파일별 역활 + index.js (홈 라웉의 인덱스 파일은 홈컴테이너를 호출)
+    - **Container 컴포넌트는 논리 담당, logic과 api를 갖고 있고, Presenter 컴포넌트는 UI 담당, 사진 등을 갖고있다.** - 폴더 구조 + Routes/Home/index.js + Routes/Home/HomePresenter.js + Routes/Home/HomeContainer.js - 각 파일별 역할 + index.js (홈 라웉의 인덱스 파일은 홈컴테이너를 호출)
       `javascript import HomeContainer from "./HomeContainer"; export default HomeContainer;` + HomePresenter.js (홈 컨테이너는 홈프리젠터를 렌더링)
 
       ```javascript
@@ -117,7 +117,12 @@ draft: false
         ```
 
 11) 리액트와 일반 코딩의 차이점
-12) 리액트에선 왜 seo가 안될까
+
+- 리액트는 Virture Dom 즉, 가상돔이다. 일반적으로 html 코드를 짜고 웹 브라우저에서 html 파일을 열게되면, html 코드들이 Dom을 만들게 된다.
+  그리고 만약 html 코드의 특정 한 부분이 변경되게 된다면 전체 DOM을 새롭게 만들게 되어 비효율적인 구조이다.
+  **하지만, 리액트는 가상의 DOM을 만들어서 진짜 DOM과 비교하여 변경 사항이 있을 경우 전체를 새롭게 만드는게 아니라 변경된 부분만 진짜 DOM의 반영하는 방식으로 작업을 수행한다.**
+
+12. 리액트에선 왜 seo가 안될까
     SPA(싱글페이지)에서 자바스크립트로 페이지 데이터를 작성하기 때문에 SEO 문제점이 발생한다. 이 문제를 해결하기 위해서는 서버렌더링을 사용하면 된다.
 
 - 서버 렌더링이란?
