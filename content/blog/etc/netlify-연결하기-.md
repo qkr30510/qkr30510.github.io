@@ -1,5 +1,5 @@
 ---
-title: netlify 연결하기
+title: Netlify 연결하기
 date: 2020-06-28 17:06:50
 category: etc
 draft: false
@@ -16,4 +16,6 @@ netlify 연결하는데 이번에 꽤 힘들었다.
 
 - 참고: package.json.lock은 지워줘야함.
 
-혹시 안되면 https://13akstjq.github.io/2019/07/21/%EB%A6%AC%EC%95%A1%ED%8A%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-github-netlify%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0.html 볼것
+<a class="source_link" href="https://13akstjq.github.io/2019/07/21/%EB%A6%AC%EC%95%A1%ED%8A%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-github-netlify%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0.html" target="_blank">
+참고자료 
+</a>
