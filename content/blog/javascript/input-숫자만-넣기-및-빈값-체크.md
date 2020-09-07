@@ -16,6 +16,8 @@ draft: false
 />
 ```
 
+> 정규표현식인 `replace(/[^0-9]/g, ''`가 중요하다.
+
 ### input 빈값 체크
 
 ```javascript
