@@ -79,6 +79,37 @@ EL의 결과값이 true인 경우 몸체 내용 실행 함
 
 ```
 
+### c:if의 비교기호
+
+1. `empty(null), !empty(not null)` 값의 null 유무를 판단한다.
+2. `eq(==)` 값이 같은지 확인
+3. `ne(!=)` 값이 다름
+
+### c:if의 비교기호 사용 예제
+
+```javascript
+
+// empty(null), !empty(not null)
+<c:if test="${empty name}">
+  값이 없습니다
+</c:if>
+
+// eq(==)
+<c:set var = "name" value="kyle" />
+<c:if test="{$name eq 'kyle'}">
+  kyle이 맞습니다
+</c:if>
+
+// ne(!=)
+
+<c:set var = "name" value="kyle" />
+<c:if test="{$name ne 'kyle'}">
+  kyle이 아닙니다.
+</c:if>
+
+
+```
+
 ---
 
 ### <c:choose>, <c:when>, <c:otherwise> 태그 사용 방법
