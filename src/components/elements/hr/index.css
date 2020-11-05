@@ -1,0 +1,13 @@
+/**
+ * @light theme
+ */
+/**
+ * @dark theme
+ */
+.custom-hr {
+  margin: 64px;
+  background: linear-gradient(72deg, #005aa7, #fffde4);
+  border: none;
+  height: 2px;
+}
+/*# sourceMappingURL=index.css.map */

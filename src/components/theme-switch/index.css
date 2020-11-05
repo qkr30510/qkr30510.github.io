@@ -1,0 +1,12 @@
+.switch-container {
+  text-align: right;
+  display: none;
+}
+
+.switch-container .icon {
+  text-align: center;
+  color: #222;
+  font-size: 14px;
+  font-weight: 900;
+}
+/*# sourceMappingURL=index.css.map */
